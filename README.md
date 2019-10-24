@@ -1,4 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Playlist
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0028ccc2-0db4-4c6a-bda2-1284d20add2d/deploy-status)](https://app.netlify.com/sites/determined-mcclintock-d5c5f5/deploys)
+
+This project created with:
+
+- [Create React App](https://github.com/facebook/create-react-app).
+- [react-youtube](https://www.npmjs.com/package/react-youtube)
 
 ## Available Scripts
 
