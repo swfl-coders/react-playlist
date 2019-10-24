@@ -16,7 +16,7 @@ We all have a song that keeps up going. If you have to choose one, which one wil
    For HTTP
    `git clone https://github.com/swfl-coders/react-playlist.git`
 
-3. **Start developing.**
+2. **Start developing.**
 
    Navigate into project and start up.
 
