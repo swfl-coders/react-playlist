@@ -1,26 +1,44 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import YouTube from 'react-youtube'
+import './App.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+  const onReady = (event) => {
+    event.target.pauseVideo();
+  }
+
+  const opts = {
+    width: '500',
+    playerVars: { // https://developers.google.com/youtube/player_parameters
+      autoplay: 1
+    }
+  }
+
+    return (
+      <div className="App">
+        <header className="App-header">
+          <p>SWFL Coders Playlist</p>
+        </header>
+        <div className="cards-container">
+          <div className="card">
+            <YouTube
+              videoId="mWkfkHOb4P0"
+              opts={opts}
+              onReady={onReady}
+            />
+              <h3>Added by: Zarela Graves</h3>
+          </div>
+          <div className="card">
+            <YouTube
+              videoId="huzalkQKRTw"
+              opts={opts}
+              onReady={onReady}
+            />
+              <h3>Added by: Zarela Graves</h3>
+          </div>
+        </div>
+      </div>
+    )
 }
 
-export default App;
+export default App
