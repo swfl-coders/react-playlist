@@ -1,6 +1,36 @@
-# React Playlist
+# 🎵 React Playlist 👩🏻‍💻👨🏻‍💻
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0028ccc2-0db4-4c6a-bda2-1284d20add2d/deploy-status)](https://app.netlify.com/sites/determined-mcclintock-d5c5f5/deploys)
+
+Helps us build our future events playlist. You can either modify this app to give it a better look or simply add a new song.
+We all have a song that keeps up going. If you have to choose one, which one will be your favorite coding song?
+
+## 🚀 Getting started
+
+1. **Pull down this repository.**
+
+   On terminal:
+   For SSH
+   `git clone git@github.com:swfl-coders/playlist.git`
+
+   For HTTP
+   `git clone https://github.com/swfl-coders/playlist.git`
+
+2. **Install Gatsby globally (if not installed yet).**
+
+   On terminal: `npm i -g gatsby-cli`
+
+3. **Start developing.**
+
+   Navigate into project and start up.
+
+   ```sh
+   cd playlist
+   yarn install
+   yarn start
+   ```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser or might even open automatically.
 
 This project created with:
 
