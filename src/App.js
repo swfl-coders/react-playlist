@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
+import YouTube from 'react-youtube';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+  const onReady = (event) => {
+    event.target.pauseVideo();
+  }
+
+  const opts = {
+    height: '390',
+    width: '640',
+    playerVars: { // https://developers.google.com/youtube/player_parameters
+      autoplay: 1
+    }
+  };
+
+    return (
+      <div className="App">
+        <header className="App-header">
+          <p>SWFL Coders Playlist</p>
+        </header>
+          <YouTube
+            videoId="mWkfkHOb4P0"
+            opts={opts}
+            onReady={onReady}
+          />
+      </div>
+    );
 }
 
 export default App;
