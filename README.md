@@ -11,21 +11,18 @@ We all have a song that keeps up going. If you have to choose one, which one wil
 
    On terminal:
    For SSH
-   `git clone git@github.com:swfl-coders/playlist.git`
+   `git clone git@github.com:swfl-coders/react-playlist.git`
 
    For HTTP
-   `git clone https://github.com/swfl-coders/playlist.git`
-
-2. **Install Gatsby globally (if not installed yet).**
-
-   On terminal: `npm i -g gatsby-cli`
+   `git clone https://github.com/swfl-coders/react-playlist.git`
 
 3. **Start developing.**
 
    Navigate into project and start up.
 
    ```sh
-   cd playlist
+   cd react-playlist
+   npm install -g yarn # if not already installed
    yarn install
    yarn start
    ```
