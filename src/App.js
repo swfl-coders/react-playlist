@@ -1,6 +1,6 @@
 import React from 'react';
-import YouTube from 'react-youtube';
-import './App.css';
+import YouTube from 'react-youtube'
+import './App.css'
 
 const App = () => {
   const onReady = (event) => {
@@ -8,25 +8,37 @@ const App = () => {
   }
 
   const opts = {
-    height: '390',
-    width: '640',
+    width: '500',
     playerVars: { // https://developers.google.com/youtube/player_parameters
       autoplay: 1
     }
-  };
+  }
 
     return (
       <div className="App">
         <header className="App-header">
           <p>SWFL Coders Playlist</p>
         </header>
-          <YouTube
-            videoId="mWkfkHOb4P0"
-            opts={opts}
-            onReady={onReady}
-          />
+        <div className="cards-container">
+          <div className="card">
+            <YouTube
+              videoId="mWkfkHOb4P0"
+              opts={opts}
+              onReady={onReady}
+            />
+              <h3>Added by: Zarela Graves</h3>
+          </div>
+          <div className="card">
+            <YouTube
+              videoId="huzalkQKRTw"
+              opts={opts}
+              onReady={onReady}
+            />
+              <h3>Added by: Zarela Graves</h3>
+          </div>
+        </div>
       </div>
-    );
+    )
 }
 
-export default App;
+export default App

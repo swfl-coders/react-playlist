@@ -17,3 +17,14 @@
 .App-link {
   color: #09d3ac;
 }
+
+.card {
+  padding: 2em;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
