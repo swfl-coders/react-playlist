@@ -36,6 +36,14 @@ const App = () => {
             />
               <h3>Added by: Zarela Graves</h3>
           </div>
+          <div className="card">
+            <YouTube
+              videoId="dQw4w9WgXcQ"
+              opts={opts}
+              onReady={onReady}
+            />
+              <h3>Added by: Gabriel Boorse</h3>
+          </div>
         </div>
       </div>
     )
