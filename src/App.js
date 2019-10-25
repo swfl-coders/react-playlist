@@ -50,7 +50,7 @@ const App = () => {
               opts={opts}
               onReady={onReady}
             />
-            <h3>Added by: Jhoset Ceron.</h3>
+            <h3>Added by: Jhoset Ceron</h3>
           </div>
         </div>
       </div>
