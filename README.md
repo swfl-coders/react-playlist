@@ -1,13 +1,13 @@
 # 🎵 React Playlist 👩🏻‍💻👨🏻‍💻
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0028ccc2-0db4-4c6a-bda2-1284d20add2d/deploy-status)](https://app.netlify.com/sites/determined-mcclintock-d5c5f5/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0f963293-9a8f-4143-9fda-df218c4bf78c/deploy-status)](https://app.netlify.com/sites/swfl-coders-playlist/deploys)
 
 Helps us build our future events playlist. You can either modify this app to give it a better look or simply add a new song.
 We all have a song that keeps up going. If you have to choose one, which one will be your favorite coding song?
 
 ## 🚀 Getting started
 
-1. **Pull down this repository.**
+1. **Pull down this repository**
 
    On terminal:
    For SSH
@@ -16,7 +16,7 @@ We all have a song that keeps up going. If you have to choose one, which one wil
    For HTTP
    `git clone https://github.com/swfl-coders/react-playlist.git`
 
-2. **Start developing.**
+2. **Start developing**
 
    Navigate into project and start up.
 
@@ -27,7 +27,13 @@ We all have a song that keeps up going. If you have to choose one, which one wil
    yarn start
    ```
 
+   **NOTE:** Please don't commit the `yarn.lock` file unless you are installing dependencies. Use `git status` to check if any changes have been made after you `yarn install`. Ff you see `yarn.lock` has changes, please checkout the file with `git checkout yarn.lock`.
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser or might even open automatically.
+
+3. **Deployment**
+
+We are using **Netlify** for deployments. You can see the latest deploy version here: [SWFL Coders Playlist](https://swfl-coders-playlist.netlify.com/)
 
 This project created with:
 
