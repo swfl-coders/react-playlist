@@ -9,6 +9,7 @@ Thank you for collaborating to our coders playlist.
 - Don't `push` to master only `pull` from git
 - Branch names: `name-of-your-feature`
 - Commit messages: Short description describing your action. Ex: `Adds new song to playlist`
+- Don't commit the `yarn.lock` file, unless you are installing dependencies to the project
 
 **IMPORTANT:** Please pull before you push
 

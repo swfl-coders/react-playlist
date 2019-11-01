@@ -10,14 +10,14 @@ const App = () => {
   const opts = {
     width: '500',
     playerVars: { // https://developers.google.com/youtube/player_parameters
-      autoplay: 0
+      autoplay: 0,
     }
   }
 
     return (
       <div className="App">
         <header className="App-header">
-          <p>SWFL Coders Playlist</p>
+          <h3>SWFL Coders Playlist</h3>
         </header>
         <div className="cards-container">
           <div className="card">
@@ -51,6 +51,22 @@ const App = () => {
               onReady={onReady}
             />
               <h3>Added by: Jhoset Ceron</h3>
+          </div>
+          <div className="card">
+            <YouTube
+              videoId="ZVMIk3xYaYo"
+              opts={opts}
+              onReady={onReady}
+            />
+              <h3>Added by: Fahmi</h3>
+          </div>
+          <div className="card">
+            <YouTube
+              videoId="x94s6zPm1Ik"
+              opts={opts}
+              onReady={onReady}
+            />
+              <h3>Added by: Lillian Peterson</h3>
           </div>
         </div>
       </div>
