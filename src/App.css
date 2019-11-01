@@ -28,8 +28,13 @@
 
 .cards-container {
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
   color: white;
+}
+
+h3 {
+  color: #fff;
 }
